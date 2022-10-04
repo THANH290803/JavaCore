@@ -35,6 +35,5 @@ public class SwichCase_Cong_Tru_Nhan_Chia {
             default:
                 System.out.println("Nhap sai");
         }
-        System.out.println("sds");
     }
 }
