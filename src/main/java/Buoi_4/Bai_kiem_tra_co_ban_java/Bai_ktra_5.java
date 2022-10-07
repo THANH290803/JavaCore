@@ -78,7 +78,6 @@ public class Bai_ktra_5 {
                 }
                 System.out.println("\n");
             }
-            System.out.println();
         }
 }
 
