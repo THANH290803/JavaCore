@@ -20,14 +20,13 @@ public class Employee extends Person{
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "Employee=> " +
                 "id: " + id +
                 ", name: " + name +
                 ", age: " + age +
                 ", address: " + address +
                 ", experience: " + experience +
-                ", placeWork: " + placeWork +
-                '}' ;
+                ", placeWork: " + placeWork;
     }
 }
 
