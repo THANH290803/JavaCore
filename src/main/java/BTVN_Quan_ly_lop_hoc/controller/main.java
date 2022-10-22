@@ -19,10 +19,16 @@ public class main {
             System.out.println("2. Hiển thị ra màn hình tất cả những học sinh sinh năm 1985 và quê ở Thái Nguyên");
             System.out.println("3. Hiển thị ra màn hình tất cả những học sinh của lớp 10A1");
             System.out.println("0. Thoát Chương Trình");
+            System.out.println("---------------------------------------------------------------------------------");
+            System.out.println("Xin mời nhập phần bạn muốn chọn: ");
             int menu = input.nextInt();
             switch (menu) {
                 case 1:
-                    grade_block = grade_blockModel.grade_block();
+                    System.out.println("Nhập số học sinh: ");
+                    int n = input.nextInt();
+                    for (int i = 0; i <= n; i++) {
+                        grade_block = grade_blockModel.grade_block();
+                    }
                     break;
                 case 2:
                     System.out.println("Khong biet lam");
