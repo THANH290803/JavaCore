@@ -4,6 +4,7 @@ import BTVN_Quan_ly_lop_hoc.Model.Grade_block;
 import BTVN_Quan_ly_lop_hoc.Model.Grade_blockModel;
 import BTVN_Quan_ly_lop_hoc.Model.School;
 import BTVN_Quan_ly_lop_hoc.Model.SchoolModel;
+import BTVN_Quan_ly_lop_hoc.view.view;
 
 import java.util.Scanner;
 
@@ -24,10 +25,11 @@ public class main {
             int menu = input.nextInt();
             switch (menu) {
                 case 1:
-                        grade_block = grade_blockModel.grade_block();
+                    grade_block = grade_blockModel.grade_block();
                     break;
                 case 2:
-                    System.out.println("Khong biet lam");
+                    String Date_of_brith;
+                    String HomeTown;
                     break;
                 case 3:
                     if (grade_block.getLop() == "10A1") {
