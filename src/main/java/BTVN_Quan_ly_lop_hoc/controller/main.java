@@ -24,11 +24,7 @@ public class main {
             int menu = input.nextInt();
             switch (menu) {
                 case 1:
-                    System.out.println("Nhập số học sinh: ");
-                    int n = input.nextInt();
-                    for (int i = 0; i <= n; i++) {
                         grade_block = grade_blockModel.grade_block();
-                    }
                     break;
                 case 2:
                     System.out.println("Khong biet lam");

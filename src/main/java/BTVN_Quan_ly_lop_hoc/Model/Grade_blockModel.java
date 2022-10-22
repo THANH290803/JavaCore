@@ -13,14 +13,12 @@ public class Grade_blockModel {
         System.out.println("Nhập tên lớp: ");
         String lop = input.nextLine();
         System.out.println("Nhập số kỳ học: ");
-        input.nextInt();
         int semester = input.nextInt();
         System.out.println("Nhập số học sinh");
-        input.nextInt();
         int n = input.nextInt();
         ArrayList<School> schools = new ArrayList<>();
         for (int i = 0; i < n; i++) {
-            System.out.println("Nhập thông tin học sinh thứ "+( i + 1));
+            System.out.println("Nhập thông tin học sinh thứ "+(i + 1));
             School school = schoolModel.InformationStudent();
             schools.add(school);
         }
