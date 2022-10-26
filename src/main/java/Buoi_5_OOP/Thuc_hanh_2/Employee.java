@@ -7,7 +7,6 @@ public class Employee extends Person{
     public String placeWork;
 
 
-
     public void inputEmployee(){
         Scanner input = new Scanner(System.in);
         inputPerson();
