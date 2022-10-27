@@ -1,4 +1,4 @@
-package Unit13;
+package Unit13.Example;
 
 public class Seller extends Employee{
     private double revenue;
